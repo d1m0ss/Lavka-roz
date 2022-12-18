@@ -1,0 +1,40 @@
+.card__number-input::-webkit-inner-spin-button,
+.card__number-input::-webkit-outer-spin-button,
+.card__f-input::-webkit-inner-spin-button,
+.card__f-input::-webkit-outer-spin-button{
+    appearance: none;
+}
+
+.card__number-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 12px 20px;
+    border: 1px solid #D0D2D7;
+    border-radius: 5px;
+}
+
+.card__number-input:focus{
+    outline: 2px solid #0093A2;
+}
+
+.card__number-input::placeholder{
+    color: #505567;
+}
+
+.card__footer{
+    display: flex;
+    gap: 10px
+    ;
+}
+
+.card__f-input{
+    padding: 12px 20px;
+    border: 1px solid #D0D2D7;
+    border-radius: 5px;
+    width: 195px;
+}
+
+.card__f-input:focus{
+    outline: 2px solid #0093A2;
+}

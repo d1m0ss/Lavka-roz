@@ -1,0 +1,20 @@
+.pay-metod{
+    box-sizing: content-box;
+    padding: 40px 30px;
+    border: 1px solid #E2E4EB;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.pay-metod__header{
+    margin-bottom: 20px;
+}
+
+.pay-metod__title{
+    padding-left: 15px;
+}
+
+.pay-metod__choice-list{
+    display: flex;
+    flex-direction: column;
+}

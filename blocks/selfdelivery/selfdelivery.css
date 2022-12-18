@@ -1,0 +1,62 @@
+.selfdelivery{
+    box-sizing: content-box;
+    padding: 40px 30px 40px 30px;
+    border: 1px solid #E2E4EB;
+    border-top: 0;
+}
+
+.selfdelivery__semititle{
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.selfdelivery__marcets-location{
+    margin-bottom: 15px;
+}
+
+.selfdelivery__location-wrapp{
+    display: flex;
+}
+
+.selfdelivery__choose{
+    box-sizing: content-box;
+    border: 1px solid #D0D2D7;
+    border-radius: 8px;
+    padding: 18px 25px 18px 20px;
+    margin-right: 20px;
+}
+
+.selfdelivery__radio-text{
+    padding-left: 20px;
+}
+
+.selfdelivery__radio-border{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F3F5;
+    border: 1px solid #D0D2D7;
+    border-radius: 50%;
+}
+
+.selfdelivery__radio-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0093A2;
+    display: none;
+}
+
+.selfdelivery__radio{
+    display: none;
+}
+
+.selfdelivery__radio:checked ~ div{
+    border: 2px solid #0093A2;
+}
+
+.selfdelivery__radio:checked ~ div > div{
+    display: block;
+}

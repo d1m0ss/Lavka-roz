@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TT Norms Regular';
+    src: url(../fonts/TT-Norms-Fonts/TTNorms-Regular.otf);
+}
+
+@font-face {
+    font-family: 'TT Norms Bold';
+    src: url(../fonts/TT-Norms-Fonts/TTNorms-Bold.otf);
+}
+
+:root{
+    --main-font-regular: 'TT Norms Regular', sans-serif;
+    --main-font-bold: 'TT Norms Bold', sans-serif;
+    font-style: normal;
+}
+
+.left-part{
+    max-width: 871px;
+    width: 100%;
+    padding-bottom: 31px;
+}
+
+.content{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+[class*="flex"]{
+    display: flex;
+}
+
+[class*="j-space-b"]{
+    justify-content: space-between;
+}
+
+[class*="a-center"]{
+    align-items: center;
+}
+
+[class*="grow-1"]{
+    flex-grow: 1;
+}
+
+.inner-content{
+    max-width: 620px;
+}
+
+[class*="text"],[class*="title"],
+[class*="btn"],[class*="input"],[class*="cost"]{
+    font-family: var(--main-font-regular);
+    font-style: normal;
+    text-decoration: none;
+}
+
+[class*="t-14"]{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+[class*="t-16"]{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+[class*="t-18"]{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+[class*="t-20"]{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+[class*="t-24"]{
+    font-size: 24px;
+    line-height: 34px;
+}
+
+[class*="t-30"]{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+[class*="t-bold"]{
+    font-family: var(--main-font-bold);
+}
+
+[class*="pointer"]{
+    cursor: pointer;
+}
+
+[class*="number-wrap"]{
+    width: 30px;
+    height: 30px;
+    background: #1B1C21;
+    border-radius: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

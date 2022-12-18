@@ -1,0 +1,107 @@
+.right{
+    position: sticky;
+    top: 10px;
+    margin-left: 21px;
+    width: 277px;
+    height: max-content;
+}
+
+.right__content{
+    border: 1px solid #F2F6F7;
+    box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.08);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.right__header{
+    padding: 10px 25px;
+    border-bottom: 1px solid #F2F3F5;
+}
+
+.right__body{
+    padding: 15px 25px;
+}
+
+.right__body > div:not(:last-child){
+    padding-bottom: 10px;
+}
+
+.right__body > div:last-child{
+    padding-bottom: 15px;
+}
+
+.r-body_sale > .right-b_value{
+    color: #E2195B;
+}
+
+.r-body__promo-wrap{
+    position: relative;
+}
+
+.r-body__p-input{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #D0D2D7;
+    border-radius: 6px;
+}
+
+.r-body__p-input:focus{
+    outline: 2px solid #0093A2;
+}
+
+.r-body__p-button{
+    width: 36px;
+    position: absolute;
+    right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 6px;
+    bottom: 6px;
+    background: #F2F3F5;
+    border-radius: 6px;
+    border: none;
+    color:#7D818E;
+    cursor: pointer;
+}
+
+.r-body__p-button:hover{
+    border: 2px solid #0093A2;
+    color: #0093A2;
+}
+
+.r-body__button{
+    margin-top: 15px;
+    width: 100%;
+    padding: 13px 0;
+    border: none;
+    background: #0093A2;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.right__pay-metod{
+    padding: 0 25px;
+}
+
+.righrt-p-m__icons-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.right-p-m__text{
+    padding: 5px 0 10px 0;
+}
+
+.righrt-p-m__icon-wrap{
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E2E4EB;
+    border-radius: 5px;
+    cursor: pointer;
+}

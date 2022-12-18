@@ -1,0 +1,25 @@
+.coments{
+    display: flex;
+    flex-direction: column;
+}
+
+.coments__area{
+    resize: none;
+    max-width: 620px;
+    max-height: 175px;
+    padding: 13px 20px;
+    border: 1px solid #D0D2D7;
+    border-radius: 5px;
+}
+
+.coments__area:focus{
+    outline: 2px solid #0093A2;
+}
+
+.coments__text{
+    margin-bottom: 5px;
+}
+
+.coments__area::placeholder{
+    font-family: var(--main-font-regular);
+}

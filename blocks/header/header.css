@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+}
+
+.breadcrumbs{
+    padding: 22px 0 12px;
+}
+
+.breadcrumbs__text:nth-of-type(1)::after{
+    content: '';
+    padding-left: 10px;
+    padding-right: 24px;
+    background: url(../imgs/Vector-12.svg)no-repeat;
+    background-position: center;
+}
+
+.breadcrumbs__title{
+    padding-bottom: 21px;
+}
+
+.breadcrumbs__text-crumb{
+    color: #505567;
+}
+
+.breadcrumbs__text:not(:first-child){
+    color: #7D818E;
+}
+
+.header-bucket__text:last-child{
+    color: #7D818E;
+}

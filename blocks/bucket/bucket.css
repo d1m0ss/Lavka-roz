@@ -1,0 +1,103 @@
+.bucket{
+    margin-bottom: 31px;
+}
+
+.bucket__header{
+    box-sizing: content-box;
+    padding: 14px 29px;
+    border: 1px solid #E3E3E8;
+    border-radius: 10px 10px 0 0;
+}
+
+.section-bucket__item{
+    box-sizing: content-box;
+    padding: 14px 30px 16px 25px;
+}
+
+.section-bucket__item:not(:last-child){
+    border: 1px solid #E3E3E8;
+}
+
+.section-bucket__item:last-child{
+    border: 1px solid #E3E3E8;
+    border-radius: 0 0 10px 10px;
+}
+
+.section-bucket__image{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section-bucket__text-wrap{
+    flex-grow: 1;
+}
+
+.section-bucket__image{
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.section-bucket__subtitle{
+    max-width: 380px;
+}
+
+.section-bucket__count{
+    width: 22px;
+    height: 14px;
+    margin: 0 14px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+}
+
+.section-bucket__count::-webkit-inner-spin-button, 
+.section-bucket__count::-webkit-outer-spin-button{
+    appearance: none;
+}
+
+.section-bucket__button-wrap{
+    box-sizing: content-box;
+    padding: 8px 8px;
+    border: 1px solid #D0D2D7;
+    border-radius: 5px;
+}
+
+.section-bucket__positive-btn-wrap, .section-bucket__hegative-btn-wrap{
+    height: 24px;
+}
+
+.section-bucket__cost{
+    padding: 0 40px;
+}
+
+.section-bucket__count-wrap{
+    display: flex;
+}
+
+.section-bucket__cansel{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E2E4EB;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.selection-bucket__cunsel-x{
+    color: #E2E4EB;
+}
+
+.section-bucket__cansel:hover .selection-bucket__cunsel-x, .section-bucket__cansel:hover{
+    border-color: #E2195B;
+    color: #E2195B;
+}
+
+.bucket__section:target{
+    display: none;
+}
+
+.section-bucket__item:target{
+    display: none;
+}

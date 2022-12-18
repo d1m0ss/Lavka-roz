@@ -1,0 +1,24 @@
+.delivery{
+    box-sizing: content-box;
+    padding: 5px;
+    border: 1px solid #E2E4EB;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery__btn{
+    width: 300px;
+    background: transparent;
+    border: none;
+    padding: 13px;
+    transition: 0.3s;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delivery__btn:hover{
+    background: #0093A2;
+    color: #FFFFFF;
+}

@@ -1,0 +1,64 @@
+.pay-metod__input-wrap{
+    position: relative;
+    width: 400px;
+    padding: 18px 18px 18px 25px;
+    border: 1px solid #D0D2D7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pay-metod__input-wrap:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.pay-metod__item{
+    display: none;
+}
+
+.pay-metod__item:checked ~ .pay-metod__radio-dot{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0093A2;
+    background: #FFFFFF;
+}
+
+.pay-metod__item:checked ~ .pay-metod__radio-dot::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0093A2;
+}
+
+.pay-metod__item:checked{
+    background: rebeccapurple;
+}
+
+.pay-metod__item-text{
+    padding-left: 15px;
+    flex-grow: 1;
+}
+
+.pay-metod__item:checked ~ .pay-metod__item-text::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #F2F3F5;
+    z-index: -1;
+    outline: 2px solid #0093A2;
+    border-radius: 8px;
+}
+
+.pay-metod__radio-dot{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #D0D2D7;
+    background: #F2F3F5;
+}

@@ -1,0 +1,163 @@
+.additional{
+    border: 1px solid #E2E4EB;
+    border-radius: 10px 10px 0 0;
+    box-sizing: content-box;
+    padding: 30px 30px 40px 30px;
+}
+
+.stufs-additional__oweel{
+    position: relative;
+}
+
+.oweel-additional__arrow-wrap{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid #E2E4EB;
+    right: 68px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.oweel-additional__arrow-wrap:hover{
+    border: 2px solid #838386;
+}
+
+.header-additional__title{
+    padding-bottom: 20px;
+}
+
+.header-additional__stufs{
+    margin-bottom: 20px;
+}
+
+.stufs-additional__oweel{
+    padding-bottom: 20px;
+}
+
+.oweel-additional__semititle{
+    padding: 10px 0;
+}
+
+.postcard__semititle{
+    padding-bottom: 5px;
+}
+
+.postcard{
+    padding-bottom: 40px;
+}
+
+.delivery{
+    padding-bottom: 40px;
+}
+
+.header-contact__title{
+    padding-bottom: 20px;
+}
+
+.header-additional__stufs{
+    width: 380px;
+    border: 1px solid #E2E4EB;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.stufs-additional__btn{
+    max-width: 120px;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.stufs-additional__btn:hover{
+    background: #0093A2;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.stufs-additional__oweel{
+    gap: 15px;
+}
+
+.oweel-additional__item{
+    box-sizing: content-box;
+    padding: 14px;
+    border: 1px solid #F2F6F7;
+    box-shadow: 0px 4px 15px rgba(34, 42, 70, 0.08);
+    border-radius: 10px;
+    display: flex;
+    font-size: 14px;
+    line-height: 10px;
+    flex-direction: column;
+}
+
+.oweel-additional__semititle{
+    max-width: 130px;
+    flex-grow: 1;
+    padding: 10px 0;
+}
+
+.oweel-additional__price-btn{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oweel-additional__btn-pos, .oweel-additional__btn-neg-hidden{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0093A2;
+    z-index: 1;
+    transition: 0.1s;
+    cursor: pointer;
+    border: 0;
+    color: #FFFFFF;
+}
+
+.oweel-additional__btn-neg-hidden{
+    right: 0;
+    position: absolute;
+    background: #E2195B;
+    
+}
+
+.oweel-additional__btn-pos:hover{
+    opacity: 0;
+}
+
+.oweel-additional__icon{
+    height: 12px;
+}
+
+.oweel-additional__item:focus{
+    display: none;
+}
+
+
+.stufs-additional__oweel:focus{
+    display: none;
+}
+
+.oweel-additional__item:focus{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
